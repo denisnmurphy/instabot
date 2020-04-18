@@ -1,3 +1,3 @@
 from instapy import InstaPy
-
-InstaPy(username="", password="").login()
+import config
+InstaPy(username=config.username, password=config.password).login()
